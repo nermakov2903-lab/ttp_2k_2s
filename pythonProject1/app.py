@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+application = FastAPI()
 
-@app.get("/")
+@application.get("/")
 def read_root():
     return {"message": "Авторелоад действительно работает"}

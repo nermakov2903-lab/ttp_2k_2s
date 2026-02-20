@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Добро пожаловать в моё приложение FastAPI!"}
+    return {"message": "Авторелоад действительно работает"}
